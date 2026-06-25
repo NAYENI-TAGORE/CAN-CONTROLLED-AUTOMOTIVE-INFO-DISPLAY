@@ -1,6 +1,6 @@
 # CAN-CONTROLLED-AUTOMOTIVE-INFO-DISPLAY
 Designed and implemented an embedded automotive monitoring system to display engine temperature, fuel level, and indicator status. The system uses the CAN protocol for reliable communication between sensor nodes and the dashboard display, providing a robust, scalable, and real-time vehicle monitoring solution.
-# 🚗 Automotive Parameter Monitoring System Using CAN Protocol
+# 🚗 CAN AUTOMOTIVE INFO DISPLAY System Using CAN Protocol
 
 An embedded automotive monitoring system developed using the **LPC2129 ARM7 microcontroller** and the **Controller Area Network (CAN) protocol**. The system enables reliable communication between multiple sensor nodes and a central dashboard to display critical vehicle parameters such as engine temperature, fuel level, and turn indicator status in real time.
 
@@ -8,7 +8,7 @@ An embedded automotive monitoring system developed using the **LPC2129 ARM7 micr
 
 ## 📌 Project Overview
 
-The Automotive Parameter Monitoring System is designed to simulate a vehicle dashboard using the CAN protocol for communication between distributed electronic control units (ECUs). Each node collects specific vehicle information and transmits it over the CAN bus to the main dashboard node, where the data is processed and displayed on an LCD.
+The AUTOMOTIVE INFO DISPLAY System is designed to simulate a vehicle dashboard using the CAN protocol for communication between distributed electronic control units (ECUs). Each node collects specific information and transmits it over the CAN bus to the main dashboard node, where the data is processed and displayed on an LCD.
 
 This project demonstrates the implementation of a reliable in-vehicle communication network using embedded systems.
 
@@ -32,9 +32,9 @@ This project demonstrates the implementation of a reliable in-vehicle communicat
 - LPC2129 ARM7 Microcontroller (3 Nodes)
 - MCP2551 CAN Transceiver
 - DS18B20 Temperature Sensor
-- Fuel Level Sensor (Potentiometer/ADC)
+- Fuel Level Sensor
 - 16x2 LCD Display
-- LEDs (Left & Right Indicators)
+- LEDs
 - Push Buttons
 - CAN Bus Wiring
 - Power Supply
@@ -51,27 +51,13 @@ This project demonstrates the implementation of a reliable in-vehicle communicat
 
 ---
 
-## 🏗 System Architecture
-
-```
-
-Temperature Sensor ──┐
-│
-Fuel Sensor ─────────┼──► CAN BUS ───► Dashboard Node ───► LCD Display
-│
-Indicator Switches ──┘
-
-```
-
----
-
 ## 📡 CAN Network Configuration
 
 | Node | Function |
 |------|----------|
-| Node 1 | Dashboard Display |
-| Node 2 | Indicator Status |
-| Node 3 | Engine Temperature & Fuel Level |
+| Node 1 | Dashboard Display & Engine Temp |
+| Node 2 | Indicator node |
+| Node 3 | Fuel Level node |
 
 ---
 
@@ -98,30 +84,42 @@ Indicator Switches ──┘
 
 ```
 
-Automotive-Parameter-Monitoring/
+CAN AUTOMOTIVE INFO DISPLAY/
 │
-├── Main Node
-│   ├── main.c
+├── MAIN NODE
+│   ├── MainNode.c
 │   ├── can.c
 │   ├── lcd.c
+│   ├── EXTINT.c
+│   ├── ds18b20.c
+│   ├── delay.c
 │
-├── Sensor Node
-│   ├── temperature.c
-│   ├── fuel.c
+├── FUEL NODE
+│   ├── FuelNode.c   
+│   ├── FUEL.c   
+│   ├── can.c
+│   ├── delay.c 
 │
 ├── Indicator Node
-│   ├── indicator.c
+│   ├── IndicatorNode.c
+│   ├── INDICATOR.c
+│   ├── delay.c
+│   ├── can.c
 │
 ├── Drivers
 │   ├── can.h
 │   ├── lcd.h
 │   ├── ds18b20.h
+│   ├── types.h
+│   ├── delay.h
+│   ├── can_defines.h
+│   ├── fuel.h
+│   ├── indicator.h
+│   ├── lcd_defines.h
 │
 └── README.md
 
 ```
-
----
 
 ## 🚀 Applications
 
@@ -130,18 +128,6 @@ Automotive-Parameter-Monitoring/
 - Industrial CAN Networks
 - Embedded Communication Projects
 - Automotive ECU Development
-
----
-
-## 🔮 Future Enhancements
-
-- Speed Monitoring
-- RPM Display
-- OBD-II Integration
-- Bluetooth Connectivity
-- Mobile Application Support
-- GPS-Based Vehicle Tracking
-- Data Logging to SD Card
 
 ---
 
