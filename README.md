@@ -14,6 +14,11 @@ This project demonstrates the implementation of a reliable in-vehicle communicat
 
 ---
 
+## BLOCK DIAGRAM
+<img width="979" height="712" alt="Blockdiagram" src="https://github.com/user-attachments/assets/3a48db0d-55dd-43c1-bc1f-33f127f9c032" />
+
+---
+
 ## ✨ Features
 
 - Real-time Engine Temperature Monitoring
@@ -71,6 +76,16 @@ This project demonstrates the implementation of a reliable in-vehicle communicat
 
 ---
 
+## CAN Network
+<img width="960" height="1280" alt="CAN" src="https://github.com/user-attachments/assets/d54ce311-7736-442f-a1bb-b8162423826c" />
+
+---
+
+## Hardware Setup
+<img width="972" height="590" alt="Hardware_setup" src="https://github.com/user-attachments/assets/47d10e06-e82b-4a05-ace8-dcc967613140" />
+
+---
+
 ## 📷 Displayed Parameters
 
 - Engine Temperature (°C)
@@ -120,6 +135,11 @@ CAN AUTOMOTIVE INFO DISPLAY/
 └── README.md
 
 ```
+
+## LCD OUTPUT
+<img width="1280" height="590" alt="lcd_output (1)" src="https://github.com/user-attachments/assets/1e3a7048-1af5-4a85-a59d-66c0fea7669e" />
+
+---
 
 ## 🚀 Applications
 
