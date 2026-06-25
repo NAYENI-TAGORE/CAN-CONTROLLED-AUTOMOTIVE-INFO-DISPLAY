@@ -1,0 +1,40 @@
+Dependencies for Project 'major', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x532C14EA)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\MAIN_CAN_PROJECT\ds18b20.c)(0x6A3A2DC1)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-o .\ds18b20.o --omf_browse .\ds18b20.crf --depend .\ds18b20.d)
+I (C:\Keil_v5\ARM\Inc\Philips\LPC21xx.h)(0x532C1500)
+I (MAIN_CAN_PROJECT\delay.h)(0x6A3A2E0F)
+I (MAIN_CAN_PROJECT\types.h)(0x6A3A2E25)
+F (.\MAIN_CAN_PROJECT\delay.c)(0x6A3A2DC6)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-o .\delay.o --omf_browse .\delay.crf --depend .\delay.d)
+I (MAIN_CAN_PROJECT\types.h)(0x6A3A2E25)
+F (.\MAIN_CAN_PROJECT\can.c)(0x6A3A2DCB)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-o .\can.o --omf_browse .\can.crf --depend .\can.d)
+I (C:\Keil_v5\ARM\Inc\Philips\LPC21XX.h)(0x532C1500)
+I (MAIN_CAN_PROJECT\types.h)(0x6A3A2E25)
+I (MAIN_CAN_PROJECT\delay.h)(0x6A3A2E0F)
+I (MAIN_CAN_PROJECT\can_defines.h)(0x6A3A2E2F)
+I (MAIN_CAN_PROJECT\can.h)(0x6A3A2E1F)
+F (.\MAIN_CAN_PROJECT\EXINT.c)(0x6A3A2DE0)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-o .\exint.o --omf_browse .\exint.crf --depend .\exint.d)
+I (C:\Keil_v5\ARM\Inc\Philips\LPC21XX.h)(0x532C1500)
+I (MAIN_CAN_PROJECT\delay.h)(0x6A3A2E0F)
+I (MAIN_CAN_PROJECT\types.h)(0x6A3A2E25)
+I (MAIN_CAN_PROJECT\can.h)(0x6A3A2E1F)
+I (MAIN_CAN_PROJECT\can_defines.h)(0x6A3A2E2F)
+I (MAIN_CAN_PROJECT\lcd.h)(0x6A3A2DED)
+I (MAIN_CAN_PROJECT\lcd_defines.h)(0x6A3A2DF3)
+I (MAIN_CAN_PROJECT\indicator.h)(0x6A3A2DFD)
+F (.\MAIN_CAN_PROJECT\MainNode.c)(0x6A3A2DB4)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-o .\mainnode.o --omf_browse .\mainnode.crf --depend .\mainnode.d)
+I (C:\Keil_v5\ARM\Inc\Philips\LPC21XX.h)(0x532C1500)
+I (MAIN_CAN_PROJECT\delay.h)(0x6A3A2E0F)
+I (MAIN_CAN_PROJECT\types.h)(0x6A3A2E25)
+I (MAIN_CAN_PROJECT\can.h)(0x6A3A2E1F)
+I (MAIN_CAN_PROJECT\can_defines.h)(0x6A3A2E2F)
+I (MAIN_CAN_PROJECT\lcd.h)(0x6A3A2DED)
+I (MAIN_CAN_PROJECT\lcd_defines.h)(0x6A3A2DF3)
+I (MAIN_CAN_PROJECT\indicator.h)(0x6A3A2DFD)
+I (MAIN_CAN_PROJECT\ds18b20.h)(0x6A3A2E03)
+F (.\MAIN_CAN_PROJECT\lcd.c)(0x6A3A2DBC)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-o .\lcd.o --omf_browse .\lcd.crf --depend .\lcd.d)
+I (C:\Keil_v5\ARM\Inc\Philips\LPC21xx.h)(0x532C1500)
+I (MAIN_CAN_PROJECT\delay.h)(0x6A3A2E0F)
+I (MAIN_CAN_PROJECT\types.h)(0x6A3A2E25)
+I (MAIN_CAN_PROJECT\defines.h)(0x6A3A2E40)
+I (MAIN_CAN_PROJECT\lcd.h)(0x6A3A2DED)
+I (MAIN_CAN_PROJECT\lcd_defines.h)(0x6A3A2DF3)

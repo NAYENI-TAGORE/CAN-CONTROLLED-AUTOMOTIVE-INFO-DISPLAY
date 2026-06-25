@@ -1,0 +1,14 @@
+.\exint.o: MAIN_CAN_PROJECT\EXINT.c
+.\exint.o: C:\Keil_v5\ARM\Inc\Philips\LPC21XX.h
+.\exint.o: MAIN_CAN_PROJECT\delay.h
+.\exint.o: MAIN_CAN_PROJECT\types.h
+.\exint.o: MAIN_CAN_PROJECT\can.h
+.\exint.o: MAIN_CAN_PROJECT\types.h
+.\exint.o: MAIN_CAN_PROJECT\can_defines.h
+.\exint.o: MAIN_CAN_PROJECT\types.h
+.\exint.o: MAIN_CAN_PROJECT\types.h
+.\exint.o: MAIN_CAN_PROJECT\lcd.h
+.\exint.o: MAIN_CAN_PROJECT\types.h
+.\exint.o: MAIN_CAN_PROJECT\lcd_defines.h
+.\exint.o: MAIN_CAN_PROJECT\indicator.h
+.\exint.o: MAIN_CAN_PROJECT\types.h

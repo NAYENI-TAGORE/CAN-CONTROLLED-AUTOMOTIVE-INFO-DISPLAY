@@ -1,0 +1,15 @@
+.\mainnode.o: MAIN_CAN_PROJECT\MainNode.c
+.\mainnode.o: C:\Keil_v5\ARM\Inc\Philips\LPC21XX.h
+.\mainnode.o: MAIN_CAN_PROJECT\delay.h
+.\mainnode.o: MAIN_CAN_PROJECT\types.h
+.\mainnode.o: MAIN_CAN_PROJECT\can.h
+.\mainnode.o: MAIN_CAN_PROJECT\types.h
+.\mainnode.o: MAIN_CAN_PROJECT\can_defines.h
+.\mainnode.o: MAIN_CAN_PROJECT\types.h
+.\mainnode.o: MAIN_CAN_PROJECT\types.h
+.\mainnode.o: MAIN_CAN_PROJECT\lcd.h
+.\mainnode.o: MAIN_CAN_PROJECT\types.h
+.\mainnode.o: MAIN_CAN_PROJECT\lcd_defines.h
+.\mainnode.o: MAIN_CAN_PROJECT\indicator.h
+.\mainnode.o: MAIN_CAN_PROJECT\types.h
+.\mainnode.o: MAIN_CAN_PROJECT\ds18b20.h

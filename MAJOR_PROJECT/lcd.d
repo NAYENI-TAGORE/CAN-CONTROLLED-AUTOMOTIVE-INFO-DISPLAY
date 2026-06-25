@@ -1,0 +1,9 @@
+.\lcd.o: MAIN_CAN_PROJECT\lcd.c
+.\lcd.o: C:\Keil_v5\ARM\Inc\Philips\LPC21xx.h
+.\lcd.o: MAIN_CAN_PROJECT\delay.h
+.\lcd.o: MAIN_CAN_PROJECT\types.h
+.\lcd.o: MAIN_CAN_PROJECT\types.h
+.\lcd.o: MAIN_CAN_PROJECT\defines.h
+.\lcd.o: MAIN_CAN_PROJECT\lcd.h
+.\lcd.o: MAIN_CAN_PROJECT\types.h
+.\lcd.o: MAIN_CAN_PROJECT\lcd_defines.h

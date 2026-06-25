@@ -1,0 +1,9 @@
+.\can.o: MAIN_CAN_PROJECT\can.c
+.\can.o: C:\Keil_v5\ARM\Inc\Philips\LPC21XX.h
+.\can.o: MAIN_CAN_PROJECT\types.h
+.\can.o: MAIN_CAN_PROJECT\delay.h
+.\can.o: MAIN_CAN_PROJECT\types.h
+.\can.o: MAIN_CAN_PROJECT\can_defines.h
+.\can.o: MAIN_CAN_PROJECT\types.h
+.\can.o: MAIN_CAN_PROJECT\can.h
+.\can.o: MAIN_CAN_PROJECT\types.h
